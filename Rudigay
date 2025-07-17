@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+int main(){
+	
+	int num1, num2, soma, sub, multi, divi, res;
+	
+	printf("Informe o primeiro numero inteiro: ");
+	scanf("%d", &num1);
+	printf("Informe o segundo numero inteiro: ");
+	scanf("%d", &num2);
+	
+	soma = num1 + num2;
+	sub = num1 - num2;
+	multi = num1 * num2;
+	divi = num1 / num2;
+	res = num1 % num2;
+	
+	printf("O valor do primeiro numero e: %d \n o segundo e: %d \n a soma dos dois e: %d \n a subtracao e: %d \n a multiplicacao e: %d \n a divisao e:%d \n e o resto e: %d \n ", num1, num2, soma, sub, multi, divi, res);
+	
+	
+	return 0;
+}
